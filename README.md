@@ -122,7 +122,7 @@ static const String baseUrl = 'http://localhost:8081';
 **For Mobile Development:**
 ```dart
 // Change to your machine's IP address
-static const String baseUrl = 'http://192.168.29.36:8081';
+static const String baseUrl = 'http://YOUR_IP_ADDRESS:8081';
 ```
 
 ### Pagination Settings
