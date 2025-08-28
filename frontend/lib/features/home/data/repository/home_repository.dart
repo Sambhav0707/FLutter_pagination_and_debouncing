@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 class HomeRepository {
   // Base URL for the API
   // ### CHANGE THIS #### - Use localhost for web development, IP address for mobile
-  static const String baseUrl = 'http://192.168.29.36:8081';
+  static const String baseUrl = 'http://localhost:8081';
 
   Future<List<PlayerModel>> getPlayers() async {
     try {
@@ -50,5 +50,4 @@ class HomeRepository {
   /// [query] - General search parameter (searches both name and role)
   /// [name] - Search by player name specifically
   /// [role] - Search by player role specifically
-  
 }

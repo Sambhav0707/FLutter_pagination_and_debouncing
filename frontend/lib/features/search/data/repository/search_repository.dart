@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 
 class SearchRepository {
   // ### CHANGE THIS #### - Use localhost for web development, IP address for mobile
-  static const String baseUrl = 'http://192.168.29.36:8081';
+  static const String baseUrl = 'http://localhost:8081';
 
   Future<List<PlayerModel>> searchPlayers({
     String? query,
